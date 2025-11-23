@@ -24,7 +24,6 @@ function Signup({ onSignup }) {
             value={email}
             inputMode="none"
             onChange={(e) => setEmail(e.target.value)}
-            contentEditable="false"
             onFocus={(e) => e.target.select()}
             required
             autoComplete="username"
@@ -34,7 +33,6 @@ function Signup({ onSignup }) {
             type="password"
             name="password"
             inputMode="none"
-            contentEditable="false"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

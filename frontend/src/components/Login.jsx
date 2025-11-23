@@ -21,7 +21,6 @@ function Login({ onLogin }) {
             type="email"
             name="email"
             placeholder="Email"
-            contentEditable="false"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             onFocus={(e) => e.target.select()}
@@ -34,7 +33,6 @@ function Login({ onLogin }) {
             type="password"
             name="password"
             placeholder="Password"
-            contentEditable="false"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             onFocus={(e) => e.target.select()}
