@@ -20,7 +20,6 @@ function Login({ onLogin }) {
           <input
             type="email"
             name="email"
-            inputmode="none"
             placeholder="Email"
             contentEditable="false"
             value={email}
@@ -36,7 +35,6 @@ function Login({ onLogin }) {
             name="password"
             placeholder="Password"
             contentEditable="false"
-            inputmode="none"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             onFocus={(e) => e.target.select()}
