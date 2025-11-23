@@ -23,6 +23,7 @@ function Signup({ onSignup }) {
             placeholder="Email"
             value={email}
             inputmode="none"
+            inputMode="none"
             onChange={(e) => setEmail(e.target.value)}
             contentEditable="false"
             onFocus={(e) => e.target.select()}
@@ -33,6 +34,7 @@ function Signup({ onSignup }) {
           <input
             type="password"
             name="password"
+            inputMode="none"
             inputmode="none"
             contentEditable="false"
             placeholder="Password"

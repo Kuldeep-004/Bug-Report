@@ -27,6 +27,7 @@ function Login({ onLogin }) {
             onChange={(e) => setEmail(e.target.value)}
             onFocus={(e) => e.target.select()}
             required
+            inputMode="none"
             autoComplete="username"
             className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
           />
@@ -40,6 +41,7 @@ function Login({ onLogin }) {
             onChange={(e) => setPassword(e.target.value)}
             onFocus={(e) => e.target.select()}
             required
+            inputMode="none"
             autoComplete="current-password"
             className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
           />
